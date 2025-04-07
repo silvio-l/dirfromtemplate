@@ -1,22 +1,24 @@
 # DirFromTemplate
 
-Diese VS Code-Erweiterung ermöglicht es dir, Ordnerstrukturen aus benannten JSON-Templates schnell und einfach zu erstellen.
+_[Deutsche Version](README.de.md)_
+
+This VS Code extension allows you to quickly and easily create directory structures from named JSON templates.
 
 ## Features
 
-- Erstellt Ordnerstrukturen und leere Dateien basierend auf JSON-Templates
-- Unterstützt mehrere benannte Strukturen in einer Template-Datei
-- Einfacher Zugriff über das Kontextmenü für Ordner im Explorer
-- Überspringt automatisch existierende Dateien und Ordner
-- Mehrsprachig (Deutsch und Englisch)
+- Creates directory structures and empty files based on JSON templates
+- Supports multiple named structures in one template file
+- Easy access through the context menu for folders in Explorer
+- Automatically skips existing files and directories
+- Multilingual (English and German)
 
-## Verwendung
+## Usage
 
-1. Erstelle eine `.vscode/dir-template.json` Datei in deinem Workspace mit folgender Struktur:
+1. Create a `.vscode/dir-template.json` file in your workspace with the following structure:
 
 ```json
 {
-  "webProjekt": {
+  "webProject": {
     "src": {
       "js": {},
       "css": {},
@@ -44,35 +46,25 @@ Diese VS Code-Erweiterung ermöglicht es dir, Ordnerstrukturen aus benannten JSO
 }
 ```
 
-2. Rechtsklick auf einen beliebigen Ordner im Explorer
-3. Wähle "Verzeichnisstruktur aus Template erstellen"
-4. Bei mehreren Templates: Wähle die gewünschte Struktur aus
+2. Right-click on any folder in Explorer
+3. Select "Create Directory Structure from Template"
+4. For multiple templates: Choose the desired structure
 
-## Hinweise
+## Notes
 
-- Leere Objekte `{}` in der JSON-Struktur repräsentieren Ordner
-- Der Wert `"FILE"` kennzeichnet eine leere Datei
-- Bestehende Dateien und Ordner werden übersprungen
+- Empty objects `{}` in the JSON structure represent folders
+- The value `"FILE"` marks an empty file
+- Existing files and folders are skipped
 
-## Unterstützte Sprachen
+## Supported Languages
 
-- Deutsch
-- Englisch
+- English
+- German
 
-## Anforderungen
+## Requirements
 
-- Visual Studio Code Version 1.99.0 oder höher
+- Visual Studio Code version 1.99.0 or higher
 
-## Bekannte Probleme
+## Known Issues
 
-Keine bekannten Probleme.
-
-## Änderungsprotokoll
-
-### 0.0.1
-
-Erste Veröffentlichung mit grundlegenden Funktionen:
-
-- Erstellung von Ordnerstrukturen aus JSON-Templates
-- Unterstützung für mehrere benannte Strukturen
-- Mehrsprachigkeit (Deutsch/Englisch)
+No known issues.
