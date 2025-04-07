@@ -65,3 +65,15 @@ This VS Code extension allows you to quickly and easily create directory structu
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/silvio-lindstedt.dirfromtemplate)](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate)
 [![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/silvio-lindstedt.dirfromtemplate)](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate)
 [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/silvio-lindstedt.dirfromtemplate)](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate&ssr=false#review-details)
+
+## Feedback and Reviews
+
+If you like this extension, please leave a [rating in the marketplace](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate&ssr=false#review-details). For bug reports or feature requests, visit the [GitHub repository](https://github.com/silvio-l/dirfromtemplate/issues).
+
+## Installation
+
+<a href="vscode:extension/silvio-lindstedt.dirfromtemplate">
+  <img src="https://img.shields.io/badge/VS%20Code-Install%20Now-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge" alt="VS Code - Install Now" />
+</a>
+
+Or search for "DirFromTemplate" in the VS Code Extensions view (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>).

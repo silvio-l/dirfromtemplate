@@ -69,3 +69,11 @@ Diese VS Code-Erweiterung ermöglicht es dir, Ordnerstrukturen aus benannten JSO
 ## Feedback und Bewertungen
 
 Wenn dir diese Extension gefällt, hinterlasse bitte eine [Bewertung im Marketplace](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate&ssr=false#review-details). Für Fehlerberichte oder Funktionsanfragen besuche das [GitHub Repository](https://github.com/silvio-l/dirfromtemplate/issues).
+
+## Installation
+
+<a href="vscode:extension/silvio-lindstedt.dirfromtemplate">
+  <img src="https://img.shields.io/badge/VS%20Code-Jetzt%20installieren-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge" alt="VS Code - Jetzt installieren" />
+</a>
+
+Oder suche nach "DirFromTemplate" in der VS Code Extensions-Ansicht (<kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>).
