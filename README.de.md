@@ -18,6 +18,12 @@ Diese VS Code-Erweiterung ermöglicht es dir, Ordnerstrukturen aus benannten JSO
 
 ```json
 {
+  "Example-Template-Name": {
+    "Example-Dir": {
+      "Example-Subdir": {},
+      "Example-Empty-File.txt": "FILE"
+    }
+  },
   "webProjekt": {
     "src": {
       "js": {},
@@ -55,16 +61,3 @@ Diese VS Code-Erweiterung ermöglicht es dir, Ordnerstrukturen aus benannten JSO
 - Leere Objekte `{}` in der JSON-Struktur repräsentieren Ordner
 - Der Wert `"FILE"` kennzeichnet eine leere Datei
 - Bestehende Dateien und Ordner werden übersprungen
-
-## Unterstützte Sprachen
-
-- Deutsch
-- Englisch
-
-## Anforderungen
-
-- Visual Studio Code Version 1.99.0 oder höher
-
-## Bekannte Probleme
-
-Keine bekannten Probleme.

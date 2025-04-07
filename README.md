@@ -18,6 +18,12 @@ This VS Code extension allows you to quickly and easily create directory structu
 
 ```json
 {
+  "Example-Template-Name": {
+    "Example-Dir": {
+      "Example-Subdir": {},
+      "Example-Empty-File.txt": "FILE"
+    }
+  },
   "webProject": {
     "src": {
       "js": {},
@@ -55,16 +61,3 @@ This VS Code extension allows you to quickly and easily create directory structu
 - Empty objects `{}` in the JSON structure represent folders
 - The value `"FILE"` marks an empty file
 - Existing files and folders are skipped
-
-## Supported Languages
-
-- English
-- German
-
-## Requirements
-
-- Visual Studio Code version 1.99.0 or higher
-
-## Known Issues
-
-No known issues.
