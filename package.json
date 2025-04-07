@@ -2,10 +2,10 @@
   "name": "dirfromtemplate",
   "displayName": "DirFromTemplate",
   "description": "Erstellt Verzeichnisstrukturen aus benannten Templates",
-  "version": "0.0.1",
-  "publisher": "DeinPublisherName",
+  "version": "1.0.0",
+  "publisher": "silvio-lindstedt",
   "author": {
-    "name": "Dein Name"
+    "name": "Silvio Lindstedt"
   },
   "license": "MIT",
   "engines": {
