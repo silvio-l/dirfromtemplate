@@ -1,7 +1,7 @@
 {
   "name": "dirfromtemplate",
   "displayName": "DirFromTemplate",
-  "description": "Erstellt Verzeichnisstrukturen aus benannten Templates",
+  "description": "Erstellt Verzeichnisstrukturen aus benannten Templates | Create directory structures from named templates (DE/EN)",
   "version": "1.0.0",
   "publisher": "silvio-lindstedt",
   "author": {
@@ -12,7 +12,9 @@
     "vscode": "^1.99.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets",
+    "Formatters"
   ],
   "keywords": [
     "directory",
@@ -20,6 +22,11 @@
     "structure",
     "folder",
     "scaffold"
+  ],
+  "tags": [
+    "productivity",
+    "workflow",
+    "filesystem"
   ],
   "icon": "images/icon.png",
   "repository": {

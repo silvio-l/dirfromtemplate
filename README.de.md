@@ -61,3 +61,11 @@ Diese VS Code-Erweiterung ermöglicht es dir, Ordnerstrukturen aus benannten JSO
 - Leere Objekte `{}` in der JSON-Struktur repräsentieren Ordner
 - Der Wert `"FILE"` kennzeichnet eine leere Datei
 - Bestehende Dateien und Ordner werden übersprungen
+
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/silvio-lindstedt.dirfromtemplate)](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/silvio-lindstedt.dirfromtemplate)](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate)
+[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/silvio-lindstedt.dirfromtemplate)](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate&ssr=false#review-details)
+
+## Feedback und Bewertungen
+
+Wenn dir diese Extension gefällt, hinterlasse bitte eine [Bewertung im Marketplace](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate&ssr=false#review-details). Für Fehlerberichte oder Funktionsanfragen besuche das [GitHub Repository](https://github.com/silvio-l/dirfromtemplate/issues).

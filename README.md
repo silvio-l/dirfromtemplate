@@ -61,3 +61,7 @@ This VS Code extension allows you to quickly and easily create directory structu
 - Empty objects `{}` in the JSON structure represent folders
 - The value `"FILE"` marks an empty file
 - Existing files and folders are skipped
+
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/silvio-lindstedt.dirfromtemplate)](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/silvio-lindstedt.dirfromtemplate)](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate)
+[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/silvio-lindstedt.dirfromtemplate)](https://marketplace.visualstudio.com/items?itemName=silvio-lindstedt.dirfromtemplate&ssr=false#review-details)
