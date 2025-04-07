@@ -1,0 +1,15 @@
+{
+  "dirfromtemplate.createStructure.title": "Create Directory Structure from Template",
+  "dirfromtemplate.selectStructure": "Select the structure to create",
+  "dirfromtemplate.error.selectFolder": "Please select a target folder (not a file).",
+  "dirfromtemplate.error.readElement": "Could not read the selected element.",
+  "dirfromtemplate.info.useContextMenu": "Please start the command from the context menu (right-click on a folder in Explorer).",
+  "dirfromtemplate.error.targetDir": "Could not determine the target directory.",
+  "dirfromtemplate.error.openWorkspace": "Please open a folder (workspace) that contains the .vscode/dir-template.json file.",
+  "dirfromtemplate.error.templateFile": "Error with template file (dir-template.json): {0}",
+  "dirfromtemplate.error.noStructures": "No structures found in the template file.",
+  "dirfromtemplate.error.invalidStructure": "Invalid structure \"{0}\" in the template file.",
+  "dirfromtemplate.error.createStructure": "Error creating structure: {0}",
+  "dirfromtemplate.success.createStructure": "Structure \"{0}\" from '{1}' successfully created in '{2}'!",
+  "dirfromtemplate.error.checkStatus": "Could not check status of \"{0}\": {1}"
+}

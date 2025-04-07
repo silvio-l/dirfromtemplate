@@ -1,0 +1,15 @@
+{
+  "dirfromtemplate.createStructure.title": "Verzeichnisstruktur aus Template erstellen",
+  "dirfromtemplate.selectStructure": "Wählen Sie die zu erstellende Struktur",
+  "dirfromtemplate.error.selectFolder": "Bitte wählen Sie einen Zielordner (nicht eine Datei) aus.",
+  "dirfromtemplate.error.readElement": "Konnte das ausgewählte Element nicht lesen.",
+  "dirfromtemplate.info.useContextMenu": "Bitte starten Sie den Befehl über das Kontextmenü (Rechtsklick auf einen Ordner im Explorer).",
+  "dirfromtemplate.error.targetDir": "Konnte den Zielordner nicht bestimmen.",
+  "dirfromtemplate.error.openWorkspace": "Bitte öffnen Sie einen Ordner (Workspace), der die .vscode/dir-template.json enthält.",
+  "dirfromtemplate.error.templateFile": "Fehler mit Vorlagendatei (dir-template.json): {0}",
+  "dirfromtemplate.error.noStructures": "Keine Strukturen in der Template-Datei gefunden.",
+  "dirfromtemplate.error.invalidStructure": "Ungültige Struktur \"{0}\" in der Template-Datei.",
+  "dirfromtemplate.error.createStructure": "Fehler beim Erstellen der Struktur: {0}",
+  "dirfromtemplate.success.createStructure": "Struktur \"{0}\" aus '{1}' erfolgreich in '{2}' erstellt!",
+  "dirfromtemplate.error.checkStatus": "Konnte Status von \"{0}\" nicht prüfen: {1}"
+}

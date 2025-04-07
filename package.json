@@ -1,0 +1,68 @@
+{
+  "name": "dirfromtemplate",
+  "displayName": "DirFromTemplate",
+  "description": "Erstellt Verzeichnisstrukturen aus benannten Templates",
+  "version": "0.0.1",
+  "publisher": "DeinPublisherName",
+  "author": {
+    "name": "Dein Name"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "directory",
+    "template",
+    "structure",
+    "folder",
+    "scaffold"
+  ],
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silvio-l/dirfromtemplate"
+  },
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "dirfromtemplate.createStructure",
+        "title": "%dirfromtemplate.createStructure.title%"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "dirfromtemplate.createStructure",
+          "group": "navigation",
+          "when": "explorerResourceIsFolder"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  },
+  "l10n": "./l10n/bundle.l10n.json"
+}
